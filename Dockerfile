@@ -1,5 +1,5 @@
 FROM debian
-MAINTAINER yyabuki <yabuki.yukimitsu@imsbio.co.jp>
+MAINTAINER Yukimitsu Yabuki, yukimitsu.yabuki@gmail.com
 RUN apt-get update && apt-get -y upgrade \
     && apt-get -y install wget \
     && wget -O salmon.tar.gz https://github.com/COMBINE-lab/salmon/releases/download/v0.6.0/SalmonBeta-0.6.0_DebianSqueeze.tar.gz \
